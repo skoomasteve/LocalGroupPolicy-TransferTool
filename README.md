@@ -12,6 +12,6 @@
 
 ## Considerations:
 
-If you are exporting from a domain machine, keep in mind that any domain principals (i.e. users and groups) will not exist locally on a non-joined machine.  Use extreme caution in transferring policy from a domain machine to non-domain machines; it is possible to lock local users out of the target machine permanently (depending on if/what principals are given access via the source policies and if/what built-ins are denied access).  
+If you are exporting from a domain machine, keep in mind that any domain principals (i.e. users and groups) will not exist locally on a non-joined machine.  Use extreme caution in transferring policy from a domain machine to non-domain machines and ensure you wont be locking out any essential built-in users/groups).  
 
-I strongly advise using this utility to backup your target machine policies first before transferring new policy to the target machine.  Better safe than sorry.  
+I strongly advise using this utility to backup your target machine policies first before transferring new policy to the target machine.    
