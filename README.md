@@ -1,6 +1,6 @@
 # LocalGroupPolicy-TransferTool
 
-- This is a graphical tool that exports all group policy settings from a single machine and generates an import directory and script to be run on the target machine.
+- This is a graphical tool that exports all group policy settings from a single machine and generates an import file and script to be run on the target machine.
 
 - Use cases include:
   -  securing non-domain machines with policy borrowed from a domain machine
